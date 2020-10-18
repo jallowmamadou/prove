@@ -1,0 +1,19 @@
+{
+    "name": "sulsira/proves",
+    "description": "Creates a new idententity for you",
+    "type": "project",
+    "require": {
+        "fzaninotto/faker": "^1.9",
+        "monolog/monolog": "^2.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sulsira",
+            "email": "sulsiralumo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+}
